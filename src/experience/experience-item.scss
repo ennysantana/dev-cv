@@ -3,13 +3,14 @@
 
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-areas: "title title" "company duration" "paragraphs paragraphs" "tech tech" "proj proj";
+  grid-template-areas: "title title" "company duration" "paragraphs paragraphs" "proj proj" "tech tech";
   grid-gap: 7px 0;
+  margin-bottom: 15px;
 
   .title {
     grid-area: title;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 15pt;
   }
 
   .duration {
@@ -19,7 +20,7 @@
 
   .company {
     grid-area: company;
-    font-size: 1em;
+    font-size: 15pt;
     font-weight: bold;
   }
 

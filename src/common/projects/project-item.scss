@@ -3,14 +3,14 @@
   margin-bottom: 12px;
   padding: 5px 0px 0px 7px;
 
-  background-color: #c7c5c5;
+  background-color: #d1cdcd;
   border-left: 2px solid black;
   border-radius: 0 10px 10px 0;
   width: auto;
 
   .name {
     font-size: 13pt;
-    font-weight: bold;
+    font-weight: 600;
     padding-right: 7px;
     display: inline;
   }
@@ -29,8 +29,8 @@
   .features-label {
     margin-bottom: 3px;
     font-size: 12pt;
-    font-weight: bold;
-    justify-self: center;
+    font-weight: 600;
+    justify-self: baseline;
     align-self: flex-start;
   }
 

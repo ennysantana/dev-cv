@@ -7,7 +7,8 @@ export default class Page extends React.Component {
 
     static defaultProps = {
         className: 'page',
-        containerClassName:'page-container'
+        containerClassName:'page-container',
+        labelClassName: 'section-label'
     };
 
     render() {
@@ -24,9 +25,10 @@ export default class Page extends React.Component {
     renderItem = (value, index) => {
         const [key, props] = value;
         const Component = parts[key];
+        const {labelClassName} = this.props;
 
         return (
-            <Component {...props} key={index.toString() + key}/>
+            <Component {...props} key={index.toString() + key} labelClassName={labelClassName}/>
         );
     }
 }

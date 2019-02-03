@@ -16,7 +16,7 @@ export class Education extends React.Component {
             items,
             label,
             className,
-            mainLabelClassName,
+            labelClassName,
             ...itemProps
         } = this.props;
 
@@ -26,7 +26,7 @@ export class Education extends React.Component {
                              items={items}
                              itemProps={itemProps}
                              ItemComponent={EducationItem}
-                             labelClassName={mainLabelClassName}
+                             labelClassName={labelClassName}
                 />
             </section>
         );

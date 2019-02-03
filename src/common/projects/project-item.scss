@@ -1,11 +1,7 @@
 .project {
 
   margin-bottom: 12px;
-  padding: 5px 0px 0px 7px;
-
-  background-color: #d1cdcd;
-  border-left: 2px solid black;
-  border-radius: 0 10px 10px 0;
+  padding: 5px 0px 0px 0px;
   width: auto;
 
   .name {
@@ -16,7 +12,8 @@
   }
 
   .description {
-    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 11pt;
     margin-right: 5px;
   }

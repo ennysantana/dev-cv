@@ -8,7 +8,7 @@ export class Technologies extends React.Component {
 
     static defaultProps = {
         className: 'technologies',
-        listClassName: 'tech-container',
+        listClassName: 'tech-container'
     };
 
     render() {

@@ -7,7 +7,7 @@ export class Projects extends React.Component {
 
     static defaultProps = {
         className: 'projects',
-        labelClassName: 'label',
+        labelClassName: 'projects-label',
         listClassName: 'items',
         defaults: {
             label: "Projects"

@@ -1,14 +1,16 @@
 .projects {
 
-  font-size: 0.9em;
+  font-size: 0.9rem;
   margin-right: 10px;
- 
+  margin-top: 8px;
+
   .items{
     margin-right: 10px;
   }
 
-  .label {
-    font-size: 16px;
+  .projects-label {
+    margin-bottom: 10px;
+    font-size: 12pt;
     font-weight: bold;
     color: black;
   }

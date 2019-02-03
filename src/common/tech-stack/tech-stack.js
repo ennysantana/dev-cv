@@ -7,7 +7,7 @@ export class TechStack extends React.Component {
 
     static defaultProps = {
         className: "tech-stack",
-        labelClassName:'label',
+        labelClassName:'tech-stack-label',
         listClassName:'items',
         label: 'Tech Stack'
     };

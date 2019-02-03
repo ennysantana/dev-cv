@@ -3,10 +3,10 @@
 }
 
 html {
-  background-color: rgb(190, 238, 230);
+  background-color: rgb(194, 211, 208);
   font-family: Niramit, Arial, Helvetica, sans-serif;
   font-size: 12pt;
-  line-height: 145%;
+  line-height: 130%;
 }
 
 body {
@@ -26,4 +26,8 @@ div, ul, p, a, section, a, li, span {
 
 ul {
   list-style: none;
+}
+
+p {
+  font-weight: 400;
 }

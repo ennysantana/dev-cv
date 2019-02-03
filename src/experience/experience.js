@@ -16,7 +16,7 @@ export class Experience extends React.Component {
             items,
             label,
             className,
-            mainLabelClassName,
+            labelClassName,
             ...itemProps
         } = this.props;
 
@@ -26,7 +26,7 @@ export class Experience extends React.Component {
                       label={label}
                       itemProps={itemProps}
                       ItemComponent={ExperienceItem}
-                      labelClassName={mainLabelClassName}
+                      labelClassName={labelClassName}
                 />
             </section>
         );

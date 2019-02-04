@@ -4,26 +4,28 @@
   grid-auto-columns: auto;
   grid-template-areas: "headshot" "name" "title" "residence" "mobile" "skype" "email";
   grid-area: person;
-  grid-gap: 6px 0;
+  grid-gap: 10px 0;
   padding-bottom: 10px;
 
   .headshot {
+    margin-top: 3px;
     grid-area: headshot;
+    box-shadow: 3px 3px 5px grey;
     max-width: 180px;
     border-radius: 7px;
   }
 
   .name {
     grid-area: name;
-    font-size: 1.5rem;
+    font-size: 20pt;
     font-weight: bold;
     white-space: nowrap;
   }
 
   .title {
     grid-area: title;
-    font-size: 1.15rem;
-    font-weight: bolder;
+    font-size: 14pt;
+    font-weight: bold;
     white-space: nowrap;
   }
 

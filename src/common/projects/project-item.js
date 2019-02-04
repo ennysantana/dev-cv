@@ -1,19 +1,14 @@
 import React from 'react';
 import './project-item.scss';
-import { Paragraphs, Label } from "Common";
+import { Paragraphs } from "Common";
+import {Features} from './features';
 
 export class ProjectItem extends React.Component {
     static defaultProps = {
         className: 'project',
         classNames: {
             name: 'name',
-            description: "description",
-            featuresContainer: "features-container",
-            features: "features",
-            featuresLabel: "features-label"
-        },
-        defaults: {
-            featuresLabel: 'Features'
+            description: "description"
         }
     };
 
@@ -25,25 +20,23 @@ export class ProjectItem extends React.Component {
 
         const {
             value,
-            defaults,
             className,
             classNames
         } = this.props;
 
-        const { name,
-            description,
-            features,
-            featuresLabel
-        } = { ...defaults, ...value };
+        const { name, description, features } = value;
+
+        // <div className={classNames.featuresContainer}>
+        // <Label content={featuresLabel} className={classNames.featuresLabel} />
+        // <Paragraphs value={features} className={classNames.features} />
+        // </div>
+
 
         return (
             <div className={className}>
                 <div className={classNames.name}>{name}</div>
                 <Paragraphs value={description} className={classNames.description} />
-                <div className={classNames.featuresContainer}>
-                    <Label content={featuresLabel} className={classNames.featuresLabel} />
-                    <Paragraphs value={features} className={classNames.features} />
-                </div>
+                <Features value={features}/>
             </div>
         );
     }

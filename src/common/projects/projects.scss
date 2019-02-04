@@ -1,17 +1,14 @@
 .projects {
-
-  font-size: 0.9rem;
-  margin-right: 10px;
-  margin-top: 8px;
-
-  .items{
+    font-size: 0.9rem;
     margin-right: 10px;
-  }
-
-  .projects-label {
-    margin-bottom: 10px;
-    font-size: 12pt;
-    font-weight: bold;
-    color: black;
-  }
+    margin-top: 8px;
+    .items {
+        margin-right: 10px;
+    }
+    .projects-label {
+        margin-bottom: 7px;
+        font-size: 14pt;
+        font-weight: 700;
+        color: black;
+    }
 }

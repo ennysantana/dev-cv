@@ -152,24 +152,28 @@
                     "description": [
                       "Development of a software stack for a medical device which detects heart failure."
                     ],
-                    "features": [
-                      "Upstream synchronization of logs and data.",
-                      "Downstream synchronization of software versions and configuration profiles.",
-                      "Configurable Parallelism of Medical algorithms"
-                    ]
+                    "features": {
+                      "items":[
+                        "Upstream synchronization of logs and data.",
+                        "Downstream synchronization of software versions and configuration profiles.",
+                        "Configurable Parallelism of Medical algorithms"
+                      ]
+                    }
                   },
                   {
                     "name": "CorAlert Management Console",
                     "description": [
                       "Development of a cloud application which complements the company's device."
                     ],
-                    "features": [
-                      "Track the status of devices.",
-                      "Deploy and create device configuration profiles",
-                      "Deploy software versions to devices.",
-                      "View device logs (both historical and real time).",
-                      "View device generated data."
-                    ]
+                    "features": {
+                      "items":[
+                        "Track the status of devices.",
+                        "Deploy and create device configuration profiles",
+                        "Deploy software versions to devices.",
+                        "View device logs (both historical and real time).",
+                        "View device generated data."
+                      ]
+                    }
                   }
                 ]
               }
@@ -260,12 +264,14 @@
                     "description": [
                       "An Android Application which enhances itinerary management with location awareness."
                     ],
-                    "features": [
-                      "Leave On Time for next appointment",
-                      "Predict missed appointments",
-                      "Team Itinerary planning and management",
-                      "On site and on time presence assurance"
-                    ]
+                    "features": {
+                      "items":[
+                        "Leave On Time for next appointment",
+                        "Predict missed appointments",
+                        "Team Itinerary planning and management",
+                        "On site and on time presence assurance"
+                      ]
+                    }
                   }
                 ]
               }

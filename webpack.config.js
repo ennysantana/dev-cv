@@ -2,10 +2,7 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    entry: [
-        'babel-polyfill',
-        path.join(__dirname, 'src/index.js')
-    ],
+    entry: path.join(__dirname, 'src/index.js'),
     output: {
         path: path.join(__dirname, 'dist'),
         publicPath: '/',
@@ -48,28 +45,8 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(jpg|png|gif|svg)$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[ext]',
-                            outputPath: './assets/media/'
-                        }
-                    }
-                ]
-            },
-            {
-                test: /\.(woff|woff2|eot|ttf|otf)$/,
-                use: ['file-loader']
-            },
-            {
-                test: /\.html$/,
-                use: ['html-loader']
-            },
-            {
-                test: /\.json$/,
-                loader: 'json-loader'
+                test: /\.svg$/,
+                use: ['@svgr/webpack'],
             }
         ]
     },

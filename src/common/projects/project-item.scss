@@ -1,11 +1,12 @@
+
 .project {
 
   margin-bottom: 12px;
-  padding: 5px 0px 0px 0px;
+  padding: 5px 0 0 0;
   width: auto;
 
   .name {
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: 600;
     padding-right: 7px;
     display: inline;
@@ -16,24 +17,5 @@
     margin-bottom: 10px;
     font-size: 11pt;
     margin-right: 5px;
-  }
-
-  .features-container {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 7px;
-  }
-
-  .features-label {
-    margin-bottom: 3px;
-    font-size: 12pt;
-    font-weight: 600;
-    justify-self: baseline;
-    align-self: flex-start;
-  }
-
-  .features {
-    margin-left: 15px;
-    margin-bottom: 5px;
   }
 }

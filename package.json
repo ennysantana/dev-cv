@@ -2,32 +2,33 @@
   "name": "dev-cv",
   "version": "0.0.1",
   "scripts": {
-    "start":"./node_modules/.bin/webpack-dev-server"
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "dependencies": {
     "react": "16.4.0",
     "react-dom": "16.4.0"
   },
   "devDependencies": {
-    "babel-register": "6.26.0",
+    "@svgr/webpack": "4.1.0",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
     "babel-loader": "7.1.1",
+    "babel-plugin-transform-async-to-generator": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
-    "babel-polyfill": "6.26.0",
-    "babel-plugin-transform-object-rest-spread": "6.26.0",
-    "babel-plugin-transform-async-to-generator": "6.24.1",
+    "babel-register": "6.26.0",
     "css-loader": "0.28.11",
-    "file-loader": "1.1.11",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.0.6",
     "json-loader": "0.5.7",
-    "style-loader": "0.20.3",
-    "sass-loader": "6.0.7",
     "node-sass": "4.9.2",
+    "sass-loader": "6.0.7",
+    "style-loader": "0.20.3",
+    "url-loader": "1.1.2",
     "webpack": "3.11.0",
     "webpack-dev-server": "2.11.2"
   }

@@ -1,5 +1,4 @@
 .features {
-   
     margin-bottom: 5px;
     font-size: 10pt;
     display: flex;
@@ -11,8 +10,9 @@
   }
 
   .features-label {
+    color: hsl(0,0%,45%);
     margin-bottom: 3px;
-    font-size: 12pt;
+    font-size: 11pt;
     font-weight: 600;
     justify-self: baseline;
     align-self: flex-start;

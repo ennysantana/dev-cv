@@ -13,7 +13,7 @@
 
   .description {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 11pt;
     margin-right: 5px;
   }
@@ -21,6 +21,7 @@
   .features-container {
     display: flex;
     flex-flow: row nowrap;
+    margin-bottom: 7px;
   }
 
   .features-label {

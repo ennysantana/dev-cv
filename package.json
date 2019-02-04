@@ -5,8 +5,8 @@
     "start": "./node_modules/.bin/webpack-dev-server"
   },
   "dependencies": {
-    "react": "16.4.0",
-    "react-dom": "16.4.0"
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
   },
   "devDependencies": {
     "@svgr/webpack": "4.1.0",
@@ -26,10 +26,11 @@
     "html-webpack-plugin": "3.0.6",
     "json-loader": "0.5.7",
     "node-sass": "4.9.2",
+    "webpack-cli": "3.2.1",
     "sass-loader": "6.0.7",
     "style-loader": "0.20.3",
     "url-loader": "1.1.2",
-    "webpack": "3.11.0",
-    "webpack-dev-server": "2.11.2"
+    "webpack": "4.29.0",
+    "webpack-dev-server": "3.1.14"
   }
 }
